@@ -1,0 +1,19 @@
+body{
+    background-image:linear-gradient(to bottom,rgb(233, 51, 151),rgb(68, 77, 206));
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    float: center;
+    margin:230px 480px auto;
+}
+@media  screen and (max-width:378px) {
+    .container{
+        justify-content: center;
+        width:100%;
+        margin-top:100%;
+        margin-left:-3%;
+    }
+}
+
